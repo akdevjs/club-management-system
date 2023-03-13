@@ -1,0 +1,60 @@
+.notication {
+  display: flex;
+  gap: 0.7rem;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid rgb(194, 192, 192);
+}
+.notication:last-child {
+  border-bottom: none;
+}
+.notication .content b {
+  margin-right: 0.5rem;
+}
+.notication .content {
+  font-style: italic;
+  font-size: 1rem;
+}
+.notication .comment {
+  font-size: 1rem;
+  color: #0d5ba3;
+}
+.notication .user__img > img {
+  width: 3rem;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.notication .user__img {
+  position: relative;
+  height: fit-content;
+}
+.notication .user__img > .action__inmg {
+  position: absolute;
+  bottom: 0;
+  left: 2rem;
+  width: 1.5rem;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.notication_popup {
+  display: flex;
+  flex-direction: column;
+  width: 22rem;
+  border-radius: 2rem;
+  overflow: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+}
+.notication_popup::-webkit-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  display: none;
+}
+
+.noti__main {
+  position: relative;
+}
+.noti__main > .notication_popup {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+}

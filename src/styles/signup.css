@@ -1,0 +1,144 @@
+.sign__up__main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.sign__up__left,
+.sign__up__right {
+  width: 50%;
+}
+
+.sign__up__right {
+  display: flex;
+  align-items: center;
+}
+.sign__up__right .background__img {
+  position: relative;
+  width: 95%;
+}
+.sign__up__right .background__img .main__img {
+  width: 100%;
+  height: 57rem;
+  object-fit: contain;
+}
+.sign__up__right .background__img .child__img {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 20%;
+  width: 50%;
+}
+.sign__up__right .background__img button {
+  position: absolute;
+  top: 2rem;
+  right: 20%;
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  border: none;
+  background: white;
+  padding: 0.6rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.36);
+  font-weight: 800;
+}
+.sign__up__right .background__img button img {
+  width: 1rem;
+}
+
+.sign__up__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.sign__up__left .sign__up__header {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.sign__up__left .sign__up__header img:nth-child(1) {
+  width: 5rem;
+}
+.sign__up__left .sign__up__header img:nth-child(2) {
+  width: 15rem;
+}
+.heading__of__form {
+  display: flex;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.6);
+  align-self: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.heading__of__form p {
+  font-size: 1.5rem;
+}
+.heading__of__form h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.sign__up__left form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.sign__up__left form input {
+  font-size: 1.5rem;
+  padding: 1.3rem 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.sign__up__left form input::placeholder {
+  color: black;
+  font-weight: 400;
+}
+.sign__up__left button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  background: #4a91d1;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.2rem;
+}
+.sign__up__left a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  font-weight: 500;
+  color: black;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.2rem;
+  border: 1px solid black;
+}
+.sign__up__main .buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 0.5rem;
+}
+
+@media (max-width: 920px) {
+  .sign__up__main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+  .sign__up__left {
+    width: 100%;
+    margin: auto;
+  }
+  .sign__up__right {
+    display: none;
+  }
+}

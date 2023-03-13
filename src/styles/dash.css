@@ -1,0 +1,157 @@
+.dash__main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.dash__header {
+  max-width: 60rem;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  display: flex;
+  color: white;
+  background: linear-gradient(138.45deg, #080fb1 0.54%, #96bad4 79.23%);
+}
+.dash__header h1 {
+  font-size: 3rem;
+}
+.dash__callender {
+  background-color: #f7f7f9;
+  max-width: 60rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.callender__header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.callender__header img {
+  width: 1.5rem;
+  object-fit: contain;
+}
+.all__days {
+  display: flex;
+  justify-content: space-between;
+}
+.all__days span {
+  font-size: 1.5rem;
+}
+.all__days h2 {
+  font-size: 3rem;
+}
+
+.day__row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.times__day {
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.time__box {
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.dash__graphs {
+  display: flex;
+  gap: 3rem;
+}
+.dash__graphs div {
+  width: 28.5rem;
+  height: 15rem;
+  display: flex;
+}
+table {
+  width: 60rem;
+  border-collapse: collapse;
+}
+
+thead th,
+tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+}
+tr td {
+  text-align: center;
+}
+
+thead th {
+  text-transform: uppercase;
+  color: #ddd;
+}
+
+tbody td:first-child {
+  width: 3rem;
+}
+
+tbody td img {
+  width: 50%;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+tbody td span {
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.place {
+  background-color: #ffece6;
+  color: #ff8c00;
+}
+
+.parking {
+  background-color: #e7f1f7;
+  color: #0074c2;
+}
+
+.booking__head {
+  display: flex;
+  margin: 3rem 0;
+  width: 60rem;
+  justify-content: space-between;
+}
+.booking__head button {
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  outline: none;
+  background-color: #e79087;
+  border: none;
+  padding: 1rem 2.5rem;
+}
+.booking__head h3 {
+  font-size: 2rem;
+}
+
+.search_ {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem;
+}
+.search_ svg {
+  width: 2.5rem;
+}
+.search__container {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.search__container input {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  outline: none;
+  border: none;
+}

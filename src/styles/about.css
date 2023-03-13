@@ -1,0 +1,46 @@
+.about__main {
+  background: url("../../public/imgs/background_img_about_page.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__child {
+  padding-top: 6rem;
+  margin: 0 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__cards {
+  display: flex;
+  gap: 1.5rem;
+}
+.about__card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 3rem;
+  border-radius: 2rem;
+  align-items: center;
+}
+.about__child h1 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.about__card img {
+  width: 3.5rem;
+}
+
+@media (max-width: 756px) {
+  .about__main {
+    padding-top: 10rem;
+  }
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

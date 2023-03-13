@@ -1,9 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles/startpage.css";
 function StartPage() {
+  const navigate = useNavigate();
   return (
     <div className="start__page__main">
-      {/* Left img */}
       <div className="start__page__child__left">
         <h2>Welcome to our Website</h2>
         <p>
@@ -19,8 +20,8 @@ function StartPage() {
         <img src="./imgs/logo_text.png" alt="" />
         <h1>Choose Account Type</h1>
         <div className="buttons">
-          <button>User</button>
-          <button>Club</button>
+          <button onClick={() => navigate("/login/indivisual")}>User</button>
+          <button onClick={() => navigate("/login/club")}>Club</button>
         </div>
       </div>
     </div>

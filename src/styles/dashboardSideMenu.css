@@ -1,0 +1,40 @@
+.dashboard__child {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  min-height: 62rem;
+  border-right: 1px solid gray;
+}
+.dashboard__child h2 {
+  font-size: 2rem;
+}
+.menu__option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.menu__option img {
+  width: 4rem;
+  object-fit: contain;
+}
+.dashboard__child .logout {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  background-color: #f6faff;
+  position: absolute;
+  bottom: -10rem;
+  margin-left: 9rem;
+}
+.dashboard__child .logout span {
+  font-size: 1.5rem;
+}
+.dashboard__child .logout svg {
+  width: 2.5rem;
+  color: #d75c5d;
+}

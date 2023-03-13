@@ -1,0 +1,66 @@
+.dashboard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2rem;
+  margin-bottom: 3rem;
+}
+
+.dashboard__main > img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+.dashboard__header div > img {
+  width: 7rem;
+}
+.dashboard__header img:nth-child(2) {
+  width: 25rem;
+}
+.dashboard__body {
+  display: flex;
+  gap: 5rem;
+}
+.dashboard__body .main {
+  flex-grow: 1;
+  display: flex;
+}
+.top__user__header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.Search__bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+}
+.Search__bar svg {
+  width: 1.2rem;
+  color: gray;
+}
+.Search__bar .icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(197, 197, 197);
+  border-right: 1px solid gray;
+}
+.Search__bar input {
+  color: rgb(197, 197, 197);
+  border: none;
+  padding: 0 1rem;
+}
+
+.user__info .profile {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.user__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

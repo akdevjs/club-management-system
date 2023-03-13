@@ -1,0 +1,222 @@
+.membership__child {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  height: 100vh;
+}
+.para {
+  display: flex;
+  justify-content: center;
+}
+.membership__child p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.56);
+  width: 60%;
+}
+.background__img {
+  width: 100%;
+  position: relative;
+}
+.background__img img {
+  width: 100%;
+  object-fit: contain;
+}
+.background__img h1 {
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  bottom: 4.5rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+.membership__child button {
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #0d5ba3;
+  border: none;
+}
+
+.login__card {
+  display: flex;
+
+  width: 70%;
+  margin: auto;
+}
+.membership___login__parent {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.membership___login__parent > h1 {
+  color: #0c117a;
+  font-size: 4rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login__card__left,
+.login__card__right {
+  width: 50%;
+}
+.login__card__right {
+  background: #0d5ba3;
+  color: white;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+.login__card__right h1 {
+  font-size: 3rem;
+}
+.login__card__right button {
+  background: #0d5ba3;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: white;
+}
+.login__card__right p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.login__card__left form {
+  width: 100%;
+  height: 100%;
+  background: #f0f1f3;
+  padding: 3rem;
+}
+.login__card__left button {
+  font-size: 1.5rem;
+  background: #0d5ba3;
+  border-radius: 3rem;
+  color: white;
+  padding: 1rem 0;
+
+  border: none;
+  margin-top: 1.5rem;
+}
+.login__card__left form > div > img {
+  width: 8rem;
+  object-fit: contain;
+  margin: 1rem auto;
+}
+
+.membership__signup__child {
+  margin: 6rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.membership__signup__child h1 {
+  font-size: 3rem;
+
+  text-align: center;
+  color: #0c117a;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.membership__signup__child > div {
+  background: #f0f1f3;
+  border-width: 1px 3px 5px 1px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 70%;
+  margin: auto;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.27);
+}
+.membership__signup__child > div input {
+  width: 100%;
+  padding: 1rem;
+  border: 3rem;
+  font-size: 1.5rem;
+  outline: none;
+  background: #ffffff;
+  border-bottom: 2px solid #000000;
+  border-radius: 3rem;
+}
+.membership__signup__child > div .select {
+  width: 100%;
+  padding: 1rem;
+  border: 3rem;
+  font-size: 1.5rem;
+  background: #ffffff;
+  border-bottom: 2px solid #000000;
+  border-radius: 3rem;
+}
+.membership__signup__child > div select {
+  width: 100%;
+  border: 3rem;
+  outline: none;
+  font-size: 1.5rem;
+}
+.user__pass {
+  display: flex;
+  gap: 1rem;
+}
+.user__pass > div {
+  width: 100%;
+}
+
+.membership__signup__child > button {
+  background: #0d5ba3;
+  padding: 1rem 3.5rem;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 3rem;
+}
+
+@media (max-width: 756px) {
+  .background__img h1 {
+    position: absolute;
+    color: white;
+    font-size: 4rem;
+    bottom: 1rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  }
+  .membership___login__parent > h1 {
+    margin-top: 4.5rem;
+    text-align: center;
+  }
+  .login__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__card__left,
+  .login__card__right {
+    width: 100%;
+  }
+  .login__card__right {
+    height: 30rem;
+  }
+  .login__card__right h1 {
+    text-align: center;
+  }
+  .membership__signup__child {
+    margin-top: 12rem;
+  }
+  .user__pass {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

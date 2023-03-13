@@ -1,0 +1,108 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  color: black;
+  padding: 1rem;
+}
+
+.table th {
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+  background-color: #f5f5f5;
+}
+
+.table td {
+  color: rgb(1, 1, 116);
+}
+
+.table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.table .yes {
+  color: rgb(1, 1, 116);
+}
+
+.table .no {
+  color: red;
+}
+
+.table .icon {
+  margin-right: 0.5rem;
+}
+
+.table .delete {
+  color: red;
+}
+
+.table .view,
+.table .edit,
+.table .download {
+  color: rgb(1, 1, 116);
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.table .view:hover,
+.table .edit:hover,
+.table .download:hover {
+  color: #007fff;
+}
+.members__main {
+  display: flex;
+  flex-direction: column;
+  padding-right: 6rem;
+}
+.members__head {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.members__main h1 {
+  color: #505360;
+  background-color: #e2e4ec;
+  width: 100%;
+  padding: 0.2rem 1rem;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.button button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #3355a2;
+}
+.button button svg {
+  width: 1.5rem;
+  color: white;
+}
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+
+  .table th {
+    font-size: 0.8rem;
+  }
+
+  .table td {
+    font-size: 0.9rem;
+  }
+}
