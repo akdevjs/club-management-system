@@ -99,14 +99,14 @@
   margin-top: 2rem;
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 100%;
   font-weight: 500;
   color: white;
   background: #4a91d1;
   border-radius: 3rem;
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .sign__up__left a {
   display: flex;

@@ -13,7 +13,8 @@
   background-size: cover;
 }
 .about__cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
 }
 .about__card {
@@ -36,6 +37,14 @@
 }
 
 @media (max-width: 756px) {
+  .about__main {
+    padding-top: 10rem;
+  }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 456px) {
   .about__main {
     padding-top: 10rem;
   }

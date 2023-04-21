@@ -20,7 +20,11 @@ function App() {
     },
     {
       path: "/login",
-      element: <StartPage />,
+      element: <StartPage type="login" />,
+    },
+    {
+      path: "/signup",
+      element: <StartPage type="signup" />,
     },
 
     {

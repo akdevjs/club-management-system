@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/signup.css";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 
 function Signup() {
   const { user } = useParams();
@@ -31,29 +31,36 @@ function Signup() {
               <input type="text" placeholder="Clubname" />
               <input type="text" placeholder="Email" />
               <input type="text" placeholder="Password" />
+              <input type="text" placeholder="Adress" />
             </>
           )}
           <div className="buttons">
             <button type="submit">Create Account</button>
-            <a>
-              <img src="/imgs/google.svg" alt="" />
-              <span>Sign up with Google</span>
-            </a>
           </div>
         </form>
+        <div className="dont__have__account">
+          <div> Already have an account?</div>
+          <Link
+            style={{
+              border: "none",
+              color: "blue",
+              width: "auto",
+              padding: "0",
+              margin: "0",
+            }}
+            to={`/login/${user}`}
+          >
+            Log in
+          </Link>
+        </div>
       </div>
       <div className="sign__up__right">
         <div className="background__img">
           <img src="/imgs/sign_up.png" className="main__img" alt="" />
           <img src="/imgs/sign_up_1.png" className="child__img" alt="" />
-          <button onClick={() => navigate(`/login/${user}`)}>
-            <img src="/imgs/user.svg" alt="" />
-            <span>Log in</span>
-          </button>
         </div>
       </div>
     </div>
-   
   );
 }
 

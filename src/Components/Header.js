@@ -15,21 +15,27 @@ function Header() {
             <li>
               <Link to="/about">About</Link>
             </li>
+
             <li>
-              <Link to="/membership">Membership</Link>
-            </li>
-            <li>
-              <Link to="/allclubs">Bookings</Link>
+              <Link to="/allclubs">Browse</Link>
             </li>
             <li>
               <Link>Contact us</Link>
             </li>
           </ul>
-          <div onClick={() => navigate("/login")} className="header__signin">
-            <img src="/imgs/user.svg" alt="" />
-            <span>
-              <b>Sign in</b>
-            </span>
+          <div className="signup__login">
+            <div onClick={() => navigate("/login")} className="header__signin">
+              <img src="/imgs/user.svg" alt="" />
+              <span>
+                <b>Log in</b>
+              </span>
+            </div>
+            <div onClick={() => navigate("/signup")} className="header__signin">
+              <img src="/imgs/user.svg" alt="" />
+              <span>
+                <b>Sign up</b>
+              </span>
+            </div>
           </div>
         </div>
       </div>

@@ -15,7 +15,6 @@ function Home() {
           expansive indoor and outdoor spaces for all types of <br /> fitness.
           We can’t wait to see you!
         </p>
-        <button>Reserve now</button>
       </div>
     </div>
   );

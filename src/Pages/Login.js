@@ -40,14 +40,10 @@ function Login() {
                 <input type="checkbox" name="rem" id="rem" />
                 <label htmlFor="rem">Remember Me </label>
               </div>
-              <a>Recover Password</a>
+              <a>Forget Password?</a>
             </div>
           </div>
           <button type="submit">Login</button>
-          <div className="login__with__google">
-            <img src="/imgs/google.svg" alt="" />
-            <h3>Sign in with Google</h3>
-          </div>
         </form>
 
         <div className="dont__have__account">

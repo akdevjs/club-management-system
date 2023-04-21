@@ -68,9 +68,10 @@
 }
 .login__main form button {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   border: none;
-  padding: 0.2rem 0;
+  padding: 1rem 0;
+  font-weight: 100;
   font-size: 1.5rem;
   color: white;
   background: #0d5ba3;
@@ -129,12 +130,14 @@
 }
 .dont__have__account {
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.5rem;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 500;
 }
 .dont__have__account a {
   font-weight: 700;
+
   color: #0847c2;
 }
 
